@@ -4,13 +4,13 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Secure computation | Data Privacy Handbook</title>
+  <title>heading | Data Privacy Handbook</title>
   <meta name="description" content="<p>The Data Privacy Handbook is a practical guide on handling personal data in
 scientific research, created by Utrecht University’s Research Data Management
 Support.</p>" />
   <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Secure computation | Data Privacy Handbook" />
+  <meta property="og:title" content="heading | Data Privacy Handbook" />
   <meta property="og:type" content="book" />
   <meta property="og:image" content="https://utrechtuniversity.github.io/dataprivacyhandbook/img/cover-image-dph.png" />
   <meta property="og:description" content="<p>The Data Privacy Handbook is a practical guide on handling personal data in
@@ -19,7 +19,7 @@ Support.</p>" />
   <meta name="github-repo" content="utrechtuniversity/dataprivacyhandbook" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Secure computation | Data Privacy Handbook" />
+  <meta name="twitter:title" content="heading | Data Privacy Handbook" />
   
   <meta name="twitter:description" content="<p>The Data Privacy Handbook is a practical guide on handling personal data in
 scientific research, created by Utrecht University’s Research Data Management
@@ -36,8 +36,8 @@ Support.</p>" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <link rel="apple-touch-icon-precomposed" sizes="180x180" href="img/apple-touch-icon.png" />
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-<link rel="prev" href="differential-privacy.html"/>
-<link rel="next" href="data-to-code.html"/>
+<link rel="prev" href="research-scenarios.html"/>
+<link rel="next" href="faq.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -436,67 +436,12 @@ Support.</p>" />
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="secure-computation" class="section level1 hasAnchor">
-<h1>Secure computation<a href="secure-computation.html#secure-computation" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div class="keywords">
-<p>On this page: data-to-code, code-to-data, tools-to-data, algorithm-to-data,
-cryptography, technique, tool, computing, computation, analysis, analyse,
-distributed analysis<br />
-Date of last review: 2023-04-02</p>
+<div id="heading" class="section level2 hasAnchor">
+<h2>heading<a href="heading.html#heading" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>yes!</p>
+
 </div>
-<p>When you use personal data in your research project, you likely also need to
-analyse those data, often using a script of sorts. In this chapter, we discuss
-the following scenarios for analysing personal data:</p>
-<p><img src="img/secure-computing.png" title="Graphical depiction of the three secure computation scenarios: data-to-code, code-to-data and federated analysis" /></p>
-<ol style="list-style-type: decimal">
-<li><a href="data-to-code.html#data-to-code">“Regular” data analysis</a> (“data-to-code”), where the data are
-brought to the “script” or analysis software in order to analyse them.</li>
-<li><a href="code-to-data.html#code-to-data">“Code-to-data” scenario</a>, where a script or analysis software
-is run on the data, without moving the data elsewhere.</li>
-<li><a href="federated-analysis.html#federated-analysis">Federated analysis scenario</a>, where a script or
-analysis software runs on multiple datasets that are in different locations,
-without moving those datasets elsewhere.</li>
-</ol>
-<p>Additionally, we discuss relatively new
-<a href="computational-cryptography.html#computational-cryptography">cryptographic techniques</a> that can be used in
-securing the analysis of personal or otherwise sensitive data.</p>
-<div id="which-scenario-should-i-choose" class="section level4 hasAnchor">
-<h4>Which scenario should I choose?<a href="secure-computation.html#which-scenario-should-i-choose" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>Which scenario is suitable to apply in your project depends on, among others:</p>
-<ul>
-<li>Your dataset: does it contain personal data? How large is the dataset? Do you
-know the data structure and analysis method beforehand?</li>
-<li>Which computing facility is most suitable:
-<ul>
-<li>Local (e.g., laptop), on campus (e.g., cluster at Geosciences), from a
-national trusted party (e.g., SURF), or external (e.g., Amazon, Microsoft)?</li>
-<li>Located in the Netherlands, Europe or in a non-EEA country?</li>
-<li>Small or large amount of computing power (CPUs/codes/threads or GPUs, memory
-size, disk space, etc.)?</li>
-</ul></li>
-<li>Which software you need to run on the data using the computer power, e.g., R,
-Python, SPSS, or any other scripting language.
-<ul>
-<li>Does the software require root user access to install and/or configure?</li>
-<li>Does the software require paid licenses (e.g., MATLAB)?</li>
-<li>Can the software be installed in advance, or does it need to be updated
-during analyses (e.g., with additional packages from a repository)?</li>
-</ul></li>
-<li>Whether and with whom you are collaborating on your project.</li>
-</ul>
-</div>
-<div id="computation-support" class="section level4 hasAnchor">
-<h4>Tools and support<a href="secure-computation.html#computation-support" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>We have created an overview of secure computing software and services in this
-<a href="https://github.com/UtrechtUniversity/privacy-engineering-tools/blob/main/secure-computing/secure-computing-tools.md" target="_blank">GitHub repository</a>.
-Keep in mind that this is by no means a complete list!</p>
-<p>If you work at Utrecht University, you can ask the
-<a href="https://www.uu.nl/en/research/research-data-management/contact-us" target="_blank">Research engineering team</a>
-for help with choosing a suitable computing solution. If you have already
-chosen a solution, but are not sure whether it is safe to use, you can contact
-<a href="seeking-help.html#support">Information Security or your privacy officer</a> for help.</p>
-</div>
-</div>
+<!-- </div> -->
 <div class = "footer">
 <footer>
   <hr>
@@ -536,8 +481,8 @@ chosen a solution, but are not sure whether it is safe to use, you can contact
           </div>
         </div>
       </div>
-<a href="differential-privacy.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="data-to-code.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="research-scenarios.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="faq.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -568,7 +513,7 @@ gitbook.start({
 "size": 1.5
 },
 "edit": {
-"link": "https://github.com/UtrechtUniversity/dataprivacyhandbook/edit/main/chapters/13-secure-computing.Rmd",
+"link": "https://github.com/UtrechtUniversity/dataprivacyhandbook/edit/main/chapters/01-research-scenarios.Rmd",
 "text": "Suggest edits"
 },
 "history": {
